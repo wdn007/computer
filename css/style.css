@@ -1,0 +1,261 @@
+*{
+	margin: 0;
+	paddind: 0;
+	font-size: 14px;
+	font-family: "微软雅黑";
+}
+a{
+	text-decoration: none;
+}
+a:hover,
+button:hover{
+	cursor: pointer;
+}
+body{
+	background: url(../images/bodybg.jpg);
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+.box{
+	width: 1077px;
+	/*height: 604px;*/
+	margin: 0 auto;
+	position: relative;
+	margin-top: 40px;
+	background: url(../images/save_box.png) no-repeat;
+}
+.nav2{
+	width: 871px;
+    height: 71px;
+    z-index: 2;
+    position: absolute;
+    margin-top: -20px;
+    background: url(../images/nav2_bg.png) no-repeat;
+    margin-left: 95px;
+}
+.nav2 ul{
+	width: 100%;
+	height: 48px;
+	list-style: none;
+}
+.nav2 ul li{
+	float: left;
+    width: 260px;
+    height: 48px;
+    display: block;
+    text-align: center;
+}
+.nav2 ul li a{
+	color: #a0a0a0;
+	font-size: 17px;
+	line-height: 48px;
+}
+.nav2 ul li a:hover{
+	color: #3cb7ea;
+}
+.nav{
+	width: 120px;
+    position: absolute;
+    margin-top: 115px;
+    margin-left: -150px;
+}
+.nav ul{
+	list-style: none;
+	padding: 0;
+}
+.nav ul li{
+    width: 157px;
+    height: 50px;
+    display: block;
+}
+#li0{
+	/*background: url(../images/nav0.png) no-repeat;*/
+	background: url(../images/nav0_2.png) no-repeat;
+}
+/*#li0:hover{
+	background: url(../images/nav0_2.png) no-repeat;
+}*/
+#li1{
+	background: url(../images/nav1.png) no-repeat;
+}
+#li1:hover{
+	background: url(../images/nav1_2.png) no-repeat;
+}
+#li2{
+	background: url(../images/nav2.png) no-repeat;
+}
+#li2:hover{
+	background: url(../images/nav2_2.png) no-repeat;
+}
+#li3{
+	background: url(../images/nav3.png) no-repeat;
+}
+#li3:hover{
+	background: url(../images/nav3_2.png) no-repeat;
+}
+#li4{
+	background: url(../images/nav4.png) no-repeat;
+}
+#li4:hover{
+	background: url(../images/nav4_2.png) no-repeat;
+}
+#li5{
+	background: url(../images/nav5.png) no-repeat;
+}
+#li5:hover{
+	background: url(../images/nav5_2.png) no-repeat;
+}
+.logo{
+	width: 150px;
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 1075px;
+}
+.logo img{
+	width: 120px;
+	height: 120px;
+}
+.sign{
+	width: 352px;
+    float: right;
+    margin-top: -215px;
+    z-index: 2;
+    position: relative;
+}
+#content{
+	height: 535px;
+    width: 985px;
+    margin: 0 auto;
+    position: absolute;
+    margin-top: 70px;
+    left: 80px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+#tosoldier{
+	width: 832px;
+	height: 350px;
+	background: url(../images/tosoldier.png) no-repeat;
+}
+.pra{
+	padding-top: 75px;
+    width: 670px;
+    margin: auto;
+}
+#tosoldier p{
+	font-size: 14px;
+	text-indent: 28px;
+	line-height: 28px;
+}
+#short_intro{
+	margin-top: -20px;
+}
+#short_intro div{
+	float: left;
+	margin-top: 25px;
+	margin-left: 112px;
+}
+.planeimg{
+	margin-top: -110px;
+    margin-left: 285px;
+}
+.signimg{
+	margin-left: 160px;
+    margin-top: 30px;
+}
+.signimg:hover{
+	-webkit-transform:rotateZ(360deg) scale(1.10); 
+	-moz-transform:rotateZ(360deg) scale(1.10); 
+	transform:rotateZ(360deg) scale(1.10); 
+	transition: all 0.5s ease-in;
+	-moz-transition: all 0.5s ease-in;	/* Firefox 4 */
+	-webkit-transition: all 0.5s ease-in;	/* Safari 和 Chrome */
+}
+#principle1{
+	width: 311px;
+	height: 183px;
+	background: url(../images/duty_bg.png) no-repeat;
+}
+#principle1 ol{
+	padding: 0;
+	margin-top: 56px;
+	margin-left: 21px;
+}
+#principle2 ul{
+	list-style: none;
+	padding: 0;
+	margin-top: 56px;
+	margin-left: 17px;
+}
+#principle1 ol li,
+#principle2 ul li{
+	font-size: 14px;
+}
+#principle2{
+	width: 311px;
+	height: 183px;
+	background: url(../images/principle_bg.png) no-repeat;
+}
+#principle3{
+	width: 673px;
+	height: 170px;
+	background: url(../images/dress_bg.png) no-repeat;
+}
+#principle3 p{
+	margin-top: 72px;
+    margin-left: 8px;
+    font-size: 14px;
+}
+#live{
+	width: 832px;
+	height: 400px;
+	background: url(../images/live_bg.png) no-repeat;
+}
+#live p{
+	font-size: 14px;
+	text-indent: 28px;
+	line-height: 28px;
+}
+#task{
+	margin-top: -20px;
+}
+#task div{
+	float: left;
+	margin-top: 25px;
+	margin-left: 112px;
+}
+.pra2{
+	padding-top: 65px;
+    width: 670px;
+    margin: auto;
+}
+.plane2img{
+	margin-top: -110px;
+    margin-left: 380px;
+}
+#map{
+	width: 740px;
+	height: 416px;
+	position: relative;
+    margin-top: 190px;
+	background: url(../images/map.png) no-repeat;	
+}
+#map img{
+	position: absolute;
+    top: -178px;
+}
+#show{
+	width: 832px;
+	height: 370px;
+	background: url(../images/show_bg.png) no-repeat;
+}
+#show p{
+	font-size: 14px;
+	text-indent: 28px;
+	line-height: 28px;
+}
+.pra3{
+	padding-top: 95px;
+    width: 670px;
+    margin: auto;
+}
